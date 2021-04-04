@@ -1,30 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".NotesActivity">
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Todo Lists"
-        android:textSize="25sp"
-        android:padding="10dp"
-        android:textColor="@color/primary1"
-        />
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:listitem="@layout/allnotessinglerecylerview"
-        />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Todo Lists"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@color/primary1"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/allnotessinglerecylerview"
+            />
+    </LinearLayout>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
         android:src="@drawable/ic_baseline_add_24"
-        android:background="@color/primary1"
+        android:scaleType="center"
+        android:backgroundTint="@color/primary1"
+        app:backgroundTint="@color/primary1"
+        android:layout_margin="15dp"
         />
-</LinearLayout>
+</RelativeLayout>
