@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962168932136",
+    "project_id": "timebooks-ff8c8",
+    "storage_bucket": "timebooks-ff8c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962168932136:android:0d1317253240a6ad57721d",
+        "android_client_info": {
+          "package_name": "com.example.timebooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962168932136-j4200it64oufgm3lsdomc3dl80e8kuib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBwkSZw3jlJ6ULmqPEgRClNC5C-lLkex8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962168932136-j4200it64oufgm3lsdomc3dl80e8kuib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
